@@ -1,0 +1,36 @@
+#about {
+    padding: 100px 2rem 100px 2rem;
+    background-color: $orange-white;
+    display: flex;
+    img {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .aboutTextContainer {
+        padding: 2rem 2rem 2rem 2rem;
+        width: 35%;
+        .aboutParagraph {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@include breakpoint(0, 1024) {
+    #about {
+        padding: 2.5rem 0.5rem 1.5rem 0.5rem;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+
+        .aboutTextContainer {
+            padding: 0px 0px 0px 0px;
+            width: 100%;
+            p {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
