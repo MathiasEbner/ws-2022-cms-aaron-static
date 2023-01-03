@@ -373,7 +373,7 @@ header .headerMainContainer #headerButton {
   font-weight: 600;
   font-size: 16rem;
   line-height: 9.5rem;
-  transform: translateX(20px);
+  transform: translateX(35px);
 }
 #workshops .levelContainer .imageContainer {
   grid-area: _image;
@@ -525,6 +525,7 @@ header .headerMainContainer #headerButton {
     line-height: 2rem;
     position: relative;
     right: 7px;
+    transform: translateX(20px);
   }
   #workshops .levelContainer .imageContainer {
     grid-area: _image;
